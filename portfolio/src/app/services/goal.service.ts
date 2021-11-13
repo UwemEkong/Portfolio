@@ -12,8 +12,7 @@ export class GoalService {
 
   goals = <Goal[]>[];
   getGoals() {
-    let siteURL = window.location.origin
-    this.httpClient.get<Goal[]>(`${siteURL}/assets/goals.json`).subscribe(data => {
+    this.httpClient.get<Goal[]>(`assets/goals.json`).subscribe(data => {
       this.goals = data
       console.log(data)
     })

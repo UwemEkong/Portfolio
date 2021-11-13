@@ -11,8 +11,7 @@ export class SkillsService {
 
   skills = <Skill[]>[];
   getSkills() {
-    let siteURL = window.location.origin
-    this.httpClient.get<Skill[]>(`${siteURL}/assets/skills.json`).subscribe(data => {
+    this.httpClient.get<Skill[]>(`assets/skills.json`).subscribe(data => {
       this.skills = data
       console.log(data)
     })

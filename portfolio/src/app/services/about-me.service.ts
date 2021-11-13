@@ -10,7 +10,6 @@ export class AboutMeService {
   constructor(public httpClient: HttpClient) { }
 
   getAboutMe() {
-    let siteURL = window.location.origin
-    return this.httpClient.get<AboutMe>(`${siteURL}/assets/about-me.json`);
+    return this.httpClient.get<AboutMe>(`assets/about-me.json`);
   }
 }

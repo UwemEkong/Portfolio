@@ -10,8 +10,7 @@ export class ProjectService {
 
   projects = <Project[]>[];
   getProjects() {
-    let siteURL = window.location.origin
-    this.httpClient.get<Project[]>(`${siteURL}/assets/projects.json`).subscribe(data => {
+    this.httpClient.get<Project[]>(`assets/projects.json`).subscribe(data => {
       this.projects = data
       console.log(data)
     })
