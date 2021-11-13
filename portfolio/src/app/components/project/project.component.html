@@ -1,0 +1,26 @@
+<div class="project-cont">
+    <div class="project-background">
+      <div class="media-cont">
+        <iframe *ngIf="hasVideo" [src]="safeUrl" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+      </div>
+      <div class="project-title">
+        {{this.projectTitle}}
+      </div>
+      <div class="project-content">
+        {{this.description}}
+      </div>
+      <div class="tech-title">
+        Technologies
+      </div>
+      <div fxLayout="row" class="image-cont">
+        <div *ngFor="let techImage of technologyImages" class="col">
+          <div class="image-cont-inner">
+            <img class="image-col" src="{{techImage}}">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+

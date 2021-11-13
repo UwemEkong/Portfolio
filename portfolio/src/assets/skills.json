@@ -1,0 +1,20 @@
+[
+  {
+    "type": "language",
+    "name": "Java",
+    "image": "https://logoeps.com/wp-content/uploads/2011/06/java-logo-vector.png",
+    "description": "I have 3+ years of experience programming in Java. At my previous internship, I used Java for the backend implementation of my project"
+  },
+  {
+  "type": "language",
+  "name": "JavaScript",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+  "description": "I have been programming with JavaScript for 2 years. I have experience with callbacks, promises, asynchronous JavaScript, and other intermediate-advanced topics."
+},
+  {
+    "type": "language",
+    "name": "Python",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+    "description": "I have been programming with Python for 3+ years. I have used Flask and Django to built multiple web APIs, and I have also created a chat bot application using the NLTK library."
+  }
+]

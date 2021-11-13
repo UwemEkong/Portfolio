@@ -1,0 +1,8 @@
+<div class="container-fluid skills-cont">
+  <div class="languages-header">
+    Programming Languages
+  </div>
+  <div fxLayout="row" class="languages">
+    <app-skill *ngFor="let skill of this.skillService.skills; index as i;" [type]="skill.type" [name]="skill.name" [image]="skill.image" [description]="skill.description"></app-skill>
+  </div>
+</div>

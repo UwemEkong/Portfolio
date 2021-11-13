@@ -1,0 +1,35 @@
+<div class="container-fluid background">
+  <app-navbar></app-navbar>
+  <div class="container-fluid intro-cont">
+    <div class="row intro-text say-hello-cont">
+      <span class="say-hello">Hello 👋</span>
+    </div>
+    <div class="row intro-text intro-name-cont">
+      I'm<span class="intro-name">Uwem Ekong</span>
+    </div>
+    <div></div>
+    <div class="row intro-text intro-programming-cont">
+      I'm a senior CS major at Benedictine University, and <span class="intro-programming">I love programming</span>
+    </div>
+  </div>
+  <div class="container-fluid about-me">
+    <div class="about-me-header">
+      ABOUT ME
+    </div>
+    <div class="about-me-bio">
+        {{content}}
+    </div>
+  </div>
+  <div class="projects-header" id="projects">
+    PROJECTS
+  </div>
+  <app-project-section></app-project-section>
+  <div class="projects-header skills-header" id="skills">
+    SKILLS
+  </div>
+  <app-skill-section></app-skill-section>
+  <div class="projects-header" id="goals">
+    GOALS
+  </div>
+  <app-goal-section></app-goal-section>
+</div>

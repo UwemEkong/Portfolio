@@ -1,0 +1,40 @@
+[
+  {
+    "hasVideo": true,
+    "mediaURL": "https://www.youtube.com/embed/WF6ZZVjjCLI",
+    "description": "Developed a MERN stack application that allows users to delete frequently skipped songs from their Spotify playlists. Implemented client-side application using React, Bootstrap, and CSS. Persisted user’s song data using MongoDB and implemented web API using Nodejs",
+    "technologyImages": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+      "https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png",
+      "https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png",
+      "https://download.logo.wine/logo/Bootstrap_(front-end_framework)/Bootstrap_(front-end_framework)-Logo.wine.png"
+    ],
+    "projectTitle":"Spotify Playlist Cleaner"
+  },
+  {
+    "hasVideo": true,
+    "mediaURL": "https://www.youtube.com/embed/xnshHIWSnuM",
+    "description": "Cooperated as a team to create a web app that connects users who are passionate about social issues with one another via upcoming events and social groups collected from the Meetup.com API",
+    "technologyImages": [
+        "https://pgjones.gitlab.io/quart/_images/logo.png",
+        "https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+        "https://download.logo.wine/logo/Bootstrap_(front-end_framework)/Bootstrap_(front-end_framework)-Logo.wine.png"
+    ],
+    "projectTitle":"LetsMeet"
+  },
+  {
+    "hasVideo": true,
+    "mediaURL": "https://www.youtube.com/embed/zK6zCwuZgPo",
+    "description": "Won a $500 prize in San Francisco’s largest collegiate hackathon by developing a Nodejs app that provides Covid-19 data at the county level",
+    "technologyImages": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+      "https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png",
+      "https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"
+    ],
+    "projectTitle":"RapidHealth"
+  }
+
+
+]

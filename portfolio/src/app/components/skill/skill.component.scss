@@ -1,0 +1,38 @@
+.img-cont {
+  background-color:black;
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  margin-left:auto;
+  margin-right:auto;
+  display: flex;
+  align-items: center;
+  text-align:center;
+}
+
+.img-cont img {
+  height:80px;
+  border-radius:50%;
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.skill-title {
+  color:white;
+  font-size:1.3rem;
+  text-align:center;
+  font-weight:bold;
+}
+
+.skill-content {
+  color:white;
+  font-size:1.3rem;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:20px;
+}
+
+.skill-cont {
+  margin-top:20px;
+}

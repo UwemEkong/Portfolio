@@ -1,0 +1,5 @@
+<div class="container-fluid goal-cont">
+  <div fxLayout="row">
+    <app-goal *ngFor="let goal of this.goalService.goals; index as i;" [image]="goal.image" [content]="goal.content"></app-goal>
+  </div>
+</div>

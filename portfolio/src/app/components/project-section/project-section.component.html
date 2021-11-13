@@ -1,0 +1,5 @@
+<div class="container-fluid projects-cont">
+  <div fxLayout="row">
+    <app-project *ngFor="let project of this.projectservice.projects; index as i;" [projectTitle]="project.projectTitle" [hasVideo]="project.hasVideo" [mediaURL]="project.mediaURL" [description]="project.description" [technologyImages]="project.technologyImages"></app-project>
+  </div>
+</div>
